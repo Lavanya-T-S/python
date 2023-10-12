@@ -1,0 +1,12 @@
+
+s={'kusuma':[25,'software engineer'],
+    'lavu':[22,'junior engineer'],
+    'chethan':[18,'engineer']}
+def dict(name):
+    for key,value in s.items():
+
+        if key == name:
+            print(key,value)
+            break
+k=dict("lavu")
+print()
